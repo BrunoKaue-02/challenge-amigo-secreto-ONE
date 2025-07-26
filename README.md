@@ -1,4 +1,4 @@
-# 🎁 Projeto Amigo Secreto (versão simples)
+# 🎁 Projeto Amigo Secreto
 
 Este é um projeto web simples feito em HTML, CSS e JavaScript que simula um sorteio de amigo secreto. Ele permite adicionar nomes a uma lista e sortear um único nome aleatoriamente.
 
