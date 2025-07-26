@@ -26,3 +26,20 @@ function adicionarAmigo() {
     // Limpa o input
     input.value = "";
 }
+
+function sortearAmigo() {
+    if (listaDeAmigos.length === 0) {
+        alert("Adicione pelo menos um amigo para sortear.");
+        return;
+    }
+
+    const sorteadoIndex = Math.floor(Math.random() * listaDeAmigos.length);
+    const nomeSorteado = listaDeAmigos[sorteadoIndex];
+
+    const resultado = document.getElementById("resultado");
+    resultado.innerHTML = ""; // limpa o que tinha antes
+
+    const li = document.createElement("li");
+    li.textContent = `Sorteado: ${nomeSorteado}`;
+    resultado.appendChild(li);
+}
